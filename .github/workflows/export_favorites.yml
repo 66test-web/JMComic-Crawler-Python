@@ -7,13 +7,13 @@ on:
     inputs:
       IN_JM_USERNAME:
         type: string
-        default: ''
+        default: 'smhtest123'
         description: '禁漫帐号（不建议使用，会泄露在日志中。最好用secrets）'
         required: false
 
       IN_JM_PASSWORD:
         type: string
-        default: ''
+        default: '999Shengminghao'
         description: '禁漫密码（不建议使用，会泄露在日志中。最好用secrets）'
         required: false
 
